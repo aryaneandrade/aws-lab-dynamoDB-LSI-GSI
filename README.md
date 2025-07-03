@@ -10,14 +10,10 @@ Demonstrar na prática como criar uma tabela no DynamoDB com chave composta e co
 
 ---
 
-## 🧱 Componentes Utilizados
+## 🖼️ Arquitetura da Solução
 
-- **Amazon DynamoDB** – Banco de dados NoSQL gerenciado
-- **CloudShell e Console da AWS** – Para criação e consultas
-- **Comando `batch-write-item`** – Para inserção de dados em lote
-- **Índices Secundários**:  
-  - **LSI (Local Secondary Index)** – Consultas por `Status`  
-  - **GSI (Global Secondary Index)** – Consultas por `Status` e `ValorTotal`
+> Diagrama da arquitetura aplicada neste laboratório:  
+![Arquitetura](./imagens/arquitetura-lab-dynamodb.png)
 
 ---
 
@@ -31,29 +27,29 @@ Demonstrar na prática como criar uma tabela no DynamoDB com chave composta e co
 
 ---
 
-## 🧪 Resultados Esperados
+## 🧱 Componentes Utilizados
 
-- Consultas eficientes por atributos não indexados na tabela original
-- Flexibilidade na leitura de dados com diferentes padrões de acesso
-- Prática consolidada de modelagem orientada a acesso com DynamoDB
+- **Amazon DynamoDB** – Banco de dados NoSQL gerenciado
+- **CloudShell e Console da AWS** – Para criação e consultas
+- **Comando `batch-write-item`** – Para inserção de dados em lote
+- **Índices Secundários**:  
+  - **LSI (Local Secondary Index)** – Consultas por `Status`  
+  - **GSI (Global Secondary Index)** – Consultas por `Status` e `ValorTotal`
 
 ---
 
-## 🖼️ Exemplos Visuais
+## 📷 Exemplos Visuais
 
 > Substitua por capturas de tela reais no repositório:
 
-- Criação da tabela com LSI configurado  
+- Criação da tabela com LSI  
   ![LSI](./imagens/criacao-lsi.png)
 
-- Configuração de GSI na mesma tabela  
+- Configuração do GSI  
   ![GSI](./imagens/criacao-gsi.png)
 
-- Consulta com eficiência 100% (uso de índice)  
-  ![Query Efficiency](./imagens/query-sucesso.png)
+- Consulta com eficiência total  
+  ![Query](./imagens/query-sucesso.png)
 
 ---
 
-## 🔒 Licença
-
-Este projeto é de uso educacional, sem fins comerciais.
