@@ -12,8 +12,7 @@ Demonstrar na prática como criar uma tabela no DynamoDB com chave composta e co
 
 ## 🖼️ Arquitetura da Solução
 
-> Diagrama da arquitetura aplicada neste laboratório:  
-![Arquitetura](./imagens/arquitetura-lab-dynamodb.png)
+![Arquitetura](./imagens/arquitetura.png)
 
 ---
 
@@ -43,10 +42,10 @@ Demonstrar na prática como criar uma tabela no DynamoDB com chave composta e co
 > Substitua por capturas de tela reais no repositório:
 
 - Criação da tabela com LSI  
-  ![LSI](./imagens/criacao-lsi.png)
+  ![LSI](./imagens/consulta-LSI.png)
 
 - Configuração do GSI  
-  ![GSI](./imagens/criacao-gsi.png)
+  ![GSI](./imagens/consulta-GSI.png)
 
 - Consulta com eficiência total  
   ![Query](./imagens/query-sucesso.png)
