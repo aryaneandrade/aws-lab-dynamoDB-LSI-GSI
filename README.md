@@ -39,14 +39,19 @@ Demonstrar na prática como criar uma tabela no DynamoDB com chave composta e co
 
 ## 📷 Exemplos Visuais
 
+### Importação de Dados via AWS CloudShell com CLI 
+  ![LSI](./images/importacao.png)
 
-### Criação da tabela com LSI  
+### Validação da Carga de Dados no Console do DynamoDB  
+  ![LSI](./images/validacao.png)
+
+### Consulta com LSI + Filtro por ValorTotal  
   ![LSI](./images/consulta-LSI.png)
   
-### Configuração do GSI  
+### Consulta com Índice Global Secundário (GSI)
   ![GSI](./images/consulta-GSI.png)
   
-### Consulta com eficiência total  
+### Consulta Otimizada por Chave Primária (Query)
   ![Query](./images/query-sucesso.png)
 
 ---
